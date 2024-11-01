@@ -111,6 +111,13 @@ body {
     animation-delay: calc(0.2s * var(--i));
 }
 
+.home-content ul {
+    color: #fff;
+    opacity: 0;
+    margin-left: 20px;
+    animation: slideRight 1s ease forwards;
+}
+
 .btn {
     display: inline-block; /* Ensure they behave like block elements */
     margin-top: 20px;
